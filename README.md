@@ -161,21 +161,6 @@ SELECT * FROM (
 
 ---
 
-
-
-
-# 📊 Query Outputs  
-### 1️⃣ Count Employees  
-**Query**  
-```sql
-
-+----------------+
-```
-
----
-
----
-
 # 📊 SQL Query Outputs  
 
 ---
