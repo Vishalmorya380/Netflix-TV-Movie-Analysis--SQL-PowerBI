@@ -171,16 +171,7 @@ SELECT * FROM (
 ### 1️⃣ Count Employees  
 **Query**  
 ```sql
-SELECT COUNT(EmpID) AS total_employees FROM Employees;
-Output
 
-diff
-Copy
-Edit
-+----------------+
-| total_employees|
-+----------------+
-|       10       |
 +----------------+
 ```
 
@@ -188,16 +179,15 @@ Edit
 
 ---
 
-
-
 # 📊 SQL Query Outputs  
 
 ---
 Here are the SQL queries used in this project with sample outputs.
 
-###1️⃣ Count Movies vs TV Shows
-
-Query
+**Query**  
+### 1️⃣ Count Movies vs TV Shows
+**Query**  
+```sql
 
 SELECT type, COUNT(*) AS total_count 
 FROM netflixtitels 
@@ -220,10 +210,10 @@ Output
 
 
 📂 Download CSV
-
-###2️⃣ Top 5 Countries with Most Titles
-
-Query
+### 
+2️⃣ Top 5 Countries with Most Titles
+**Query**  
+```sql
 
 SELECT TOP 5 country, COUNT(*) AS total_titles 
 FROM netflixtitels 
@@ -251,9 +241,10 @@ Output
 
 📂 Download CSV
 
-###3️⃣ Titles Released Each Year
-
-Query
+### 
+3️⃣ Titles Released Each Year
+**Query**  
+```sql
 
 SELECT release_year, COUNT(*) AS total_titles 
 FROM netflixtitels 
@@ -276,9 +267,10 @@ Output (sample)
 
 ---
 
-###4️⃣ Average Movie Duration
-
-Query
+### 
+4️⃣ Average Movie Duration
+**Query**  
+```sql
 
 SELECT AVG(CAST(REPLACE(duration, ' min', '') AS INT)) AS avg_duration
 FROM netflixtitels 
@@ -301,9 +293,10 @@ Output
 
 📂 Download CSV
 
-###5️⃣ Titles Released in Same Year as Breaking Bad
-
-Query
+### 
+5️⃣ Titles Released in Same Year as Breaking Bad
+**Query**  
+```sql
 
 SELECT title, release_year 
 FROM netflixtitels 
@@ -324,11 +317,13 @@ Output (sample)
 
 ---
 
----
+----
 
-###6️⃣ Latest Added Title for Each Country
-
-Query
+ 
+### 
+6️⃣ Latest Added Title for Each Country
+**Query**  
+```sql
 
 SELECT country, title, date_added 
 FROM (
@@ -353,9 +348,10 @@ Output (sample)
 
 ---
 
-###7️⃣  Titles per Rating
-
-Query
+###
+7️⃣  Titles per Rating
+**Query**  
+```sql
 
 SELECT rating, COUNT(*) AS total_titles 
 FROM netflixtitels 
