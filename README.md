@@ -368,9 +368,9 @@ Output (Top 5)
 - **GitHub** → Version control and project portfolio hosting  
     
 ---
-##
 
-📈 Power BI Dashboard Features  
+
+## 📈 Power BI Dashboard Features  
 
 1.KPIs: Total Titles, Countries, Genres, Avg Duration, Year Range
 
