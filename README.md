@@ -368,25 +368,25 @@ Output (Top 5)
 - **GitHub** → Version control and project portfolio hosting  
     
 ---
+##
 
-##📈 Power BI Dashboard Features  
+📈 Power BI Dashboard Features  
 
+1.KPIs: Total Titles, Countries, Genres, Avg Duration, Year Range
 
-KPIs: Total Titles, Countries, Genres, Avg Duration, Year Range
+2.Genre Analysis: Distribution by titles and categories
 
-Genre Analysis: Distribution by titles and categories
+3.Rating Analysis: Titles by ratings (TV-MA, TV-14, PG, etc.)
 
-Rating Analysis: Titles by ratings (TV-MA, TV-14, PG, etc.)
+4.Country Trends: Top contributing countries
 
-Country Trends: Top contributing countries
+5.Type Comparison: Movies vs TV Shows
 
-Type Comparison: Movies vs TV Shows
+6.Release Trend: Yearly growth of Movies vs TV Shows
 
-Release Trend: Yearly growth of Movies vs TV Shows
+7.Filters/Slicers: Country, Type, Release Year, Rating, Director
 
-Filters/Slicers: Country, Type, Release Year, Rating, Director
-
-Interactive Toggle: "Clear All Slicers"
+8.Interactive Toggle: "Clear All Slicers"
 
 ---
 
@@ -431,4 +431,5 @@ It highlights how business intelligence tools can uncover trends in global conte
 👤 **Your Name**  
 📧 [Vishal](mailto:Vishalmorya380@gmail.com)  
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/vishal-maurya-bb66b4378)  
-```
+
+---
